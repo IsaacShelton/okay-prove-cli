@@ -1,9 +1,16 @@
 # okay-prove-cli
-Command-Line Interface for [`okay-prove`](https://www.npmjs.com/package/okay-prove) package.
+Command-Line Interface for [`okay-prove`](https://github.com/IsaacShelton/okay-prove) package.
 
 
 
-### CLI Usage
+### Installation
+```
+npm install -g okay-prove-cli
+```
+
+
+
+### Usage
 
 ```
 okay-prove <file> <options>

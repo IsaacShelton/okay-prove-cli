@@ -13,7 +13,7 @@ const okayProveVersion = (function () {
         let listings = execSync(`npm ls --prod --depth=0`, config);
 
         if (listings) {
-            let pattern = /(?<=├── okay-prove@)[0-9.]+/;
+            let pattern = /(?<=[├└]── okay-prove@)[0-9.]+/;
             let match = pattern.exec(listings);
 
             return match ? match[0] : null;

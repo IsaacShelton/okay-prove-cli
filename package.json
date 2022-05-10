@@ -1,6 +1,6 @@
 {
     "name": "okay-prove-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "CLI for okay-prove propositional logic proof generator package",
     "license": "MIT",
     "repository": "IsaacShelton/okay-prove-cli",
